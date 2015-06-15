@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Đăng Ký Lịch Khám</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity__login">Activity_Login</string>
+    <string name="title_activity_schedule_manament">ScheduleManament</string>
+    <string name="title_activity_schedule_detail_schedule">ScheduleDetailSchedule</string>
+    <string name="title_activity_calendar_note">CalendarNote</string>
+    <string name="title_activity_customer_information">Cập Nhật Thông tin</string>
+    <string name="title_activity_schedule_register">Đăng Ký Lịch Khám Chữa Bệnh</string>
+    <string name="title_activity_activity_register">ActivityRegister</string>
+    <string name="title_activity_forget_pass">Lấy lại Mật Khẩu </string>
+    <string name="quenmatkhau">Nhập Email Đăng Ký của bạn để nhận lại mật khẩu đã quên!</string>
+
+
+    <string name="title_ChiTietLichKham_BacSi">Bác Sĩ</string>
+    <string name="title_ChiTietLichKham_BenhNhan">Bệnh Nhân</string>
+    <string name="title_ChiTietLichKham_Khoa">Khám tại Khoa</string>
+    <string name="name_ChiTietLichKham_BacSi">Nguyễn Văn Sĩ</string>
+    <string name="name_ChiTietLichKham_BenhNhan">Nguyễn Văn Nhân</string>
+    <string name="name_ChiTietLichKham_Khoa">Thần Kinh</string>
+
+    <string name="title_ChiTietLichKham_DanhSachPhong">Danh sách Phòng khám:</string>
+
+    <string name="title_Phong1">101</string>
+    <string name="name_Phong1">Kiểm tra nước tiểu</string>
+    <string name="title_Phong2">102</string>
+    <string name="name_Phong2">Xét nghiệm máu</string>
+    <string name="title_Phong3">103</string>
+    <string name="name_Phong3">Gửi kết quả và khám bệnh</string>
+
+    <string name="title_ThoiGianBatDau">Thời gian bắt đầu khám bệnh:</string>
+    <string name="content_ThoiGian">02/11/2015 08:00 am</string>
+
+    <string name="title_DueTime">Due Time</string>
+    <string name="title_Ngay">ngày</string>
+    <string name="content_Ngay">1</string>
+    <string name="title_Gio">giờ</string>
+    <string name="content_Gio">12</string>
+    <string name="title_Phut">phút</string>
+    <string name="content_Phut">30</string>
+    <string name="content_LuuY">(*) Vui lòng đến trước 15 phút!</string>
+    <string name="btn_Huy">Hủy</string>
+    <string name="btn_XacNhan">Xác Nhận</string>
+    <string name="title_activity_activity_change_pass">ActivityChangePass</string>
+    <string name="title_activity_activity_foget_pass">ActivityFogetPass</string>
+    <string name="title_activity_main"></string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+</resources>

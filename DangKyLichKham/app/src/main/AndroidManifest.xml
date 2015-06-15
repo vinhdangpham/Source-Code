@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.calendar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Base.Theme.AppCompat.Light">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddEvent_Activity" />
+        <activity android:name=".EditEvent_Activity" />
+        <activity
+            android:name=".Controller.ActivityRegister"
+            android:label="@string/title_activity_activity__login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Controller.ScheduleManament"
+            android:label="@string/title_activity_schedule_manament"></activity>
+        <activity
+            android:name=".Controller.ScheduleDetailSchedule"
+            android:label="@string/title_activity_schedule_detail_schedule"></activity>
+        <activity
+            android:name=".Controller.CalendarNote"
+            android:label="@string/title_activity_calendar_note"></activity>
+        <activity
+            android:name=".Controller.CustomerInformation"
+            android:label="@string/title_activity_customer_information"></activity>
+        <activity
+            android:name=".Controller.ScheduleRegister"
+            android:label="@string/title_activity_schedule_register"></activity>
+        <activity
+            android:name=".CalendarView"
+            android:label="@string/title_activity_activity_register"></activity>
+        <activity
+            android:name=".Controller.ActivityFogetPass"
+            android:label="@string/title_activity_forget_pass"></activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:process=":remote" />
+        <activity
+            android:name=".Controller.Activity_Login"
+            android:label="@string/title_activity_activity_register"></activity>
+        <activity android:name=".Controller.ActivityChangePass"
+            android:label="Đổi Mật Khẩu">
+
+        </activity>
+    </application>
+
+</manifest>

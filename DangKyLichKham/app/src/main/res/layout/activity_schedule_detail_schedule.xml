@@ -1,0 +1,353 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#fafafa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="809"
+        android:id="@+id/tv_SoThuTu"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff1019"
+        android:textSize="70px"
+        android:layout_marginBottom="15px"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:stretchColumns="2"
+        android:layout_below="@+id/tv_SoThuTu"
+        android:id="@+id/tblLich">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15px">
+            <TextView
+                android:text="@string/title_ChiTietLichKham_BenhNhan"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"></TextView>
+            <TextView
+                android:text="@string/name_ChiTietLichKham_BenhNhan"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="30px"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_BenhNhan"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15px">
+            <TextView
+                android:text="@string/title_ChiTietLichKham_BacSi"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"></TextView>
+            <TextView
+                android:text="@string/name_ChiTietLichKham_BacSi"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="30px"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_BacSi"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15px">
+            <TextView
+                android:text="@string/title_ChiTietLichKham_Khoa"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"></TextView>
+            <TextView
+                android:text="@string/name_ChiTietLichKham_Khoa"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="30px"
+                android:gravity="center_horizontal"
+                android:id="@+id/tv_Khoa"></TextView>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_ChiTietLichKham_DanhSachPhong"
+        android:id="@+id/tv_dsPhong"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_below="@+id/tblLich"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25px"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2"
+        android:id="@+id/tblDSPhong"
+        android:layout_below="@+id/tv_dsPhong"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20px"
+            android:layout_marginTop="15px">
+
+            <TextView
+                android:text="@string/title_Phong1"
+                android:id="@+id/tv_Phong1"
+                android:textColor="#ffff1019"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:text="@string/name_Phong1"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"
+                android:id="@+id/textView2"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15px" >
+
+            <TextView
+                android:text="@string/title_Phong2"
+                android:id="@+id/tv_Phong2"
+                android:textColor="#ffff1019"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:text="@string/name_Phong2"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"
+                android:id="@+id/textView3"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15px" >
+
+            <TextView
+                android:text="@string/title_Phong3"
+                android:id="@+id/tv_Phong3"
+                android:textStyle="bold"
+                android:textColor="#ffff1019"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:text="@string/name_Phong3"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="25px"
+                android:id="@+id/textView4"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_ThoiGianBatDau"
+        android:id="@+id/tv_ThoiGianBatDau"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="25px"
+        android:layout_below="@+id/tblDSPhong"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_ThoiGian"
+        android:id="@+id/tv_ThoiGian"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="32px"
+        android:layout_below="@+id/tv_ThoiGianBatDau"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff0abdd3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_DueTime"
+        android:id="@+id/tv_DueTime"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:layout_below="@+id/tv_ThoiGian"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff0abdd3"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_DueTime"
+        android:layout_centerHorizontal="true"
+        android:stretchColumns="6"
+        android:id="@+id/tblDueTime">
+
+        <TableRow
+            android:id="@+id/tableRowDueTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15px" >
+
+            <TextView
+                android:text="@string/content_Ngay"
+                android:id="@+id/tv_ContentNgay"
+                android:textStyle="bold"
+                android:textColor="#ffff1019"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="35px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:text="@string/title_Ngay"
+                android:id="@+id/tv_TitleNgay"
+                android:layout_width="fill_parent"
+                android:textSize="35px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20px"/>
+
+            <TextView
+                android:text="@string/content_Gio"
+                android:id="@+id/tv_ContentGio"
+                android:textStyle="bold"
+                android:textColor="#ffff1019"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="35px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20px"/>
+
+            <TextView
+                android:text="@string/title_Gio"
+                android:id="@+id/tv_TitleGio"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="35px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20px"/>
+
+            <TextView
+                android:text="@string/content_Phut"
+                android:id="@+id/tv_ContentPhut"
+                android:textStyle="bold"
+                android:textColor="#ffff1019"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="35px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20px"/>
+
+            <TextView
+                android:text="@string/title_Phut"
+                android:id="@+id/tv_TitlePhut"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:textSize="35px"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="20px"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_LuuY"
+        android:id="@+id/tv_LuuY"
+        android:layout_weight="1"
+        android:textColor="#ffff1019"
+        android:textSize="15px"
+        android:layout_below="@+id/tblDueTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Huy"
+        android:id="@+id/btn_Huy"
+        android:layout_marginTop="61dp"
+        android:background="#ff0aae9f"
+        android:textColor="#fff"
+        android:textSize="35px"
+        android:layout_below="@+id/tv_LuuY"
+        android:layout_toRightOf="@+id/tv_DueTime"
+        android:layout_alignRight="@+id/tv_dsPhong"
+        android:layout_alignEnd="@+id/tv_dsPhong" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_XacNhan"
+        android:id="@+id/btn_XacNhan"
+        android:layout_alignTop="@+id/btn_Huy"
+        android:layout_toRightOf="@+id/tv_SoThuTu"
+        android:layout_toEndOf="@+id/tv_SoThuTu"
+        android:background="#ff0aae9f"
+        android:textColor="#fff"
+        android:textSize="35px"/>
+
+</RelativeLayout>

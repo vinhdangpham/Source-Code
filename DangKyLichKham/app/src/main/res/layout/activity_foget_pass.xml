@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa">
+
+    <LinearLayout
+
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:drawableLeft="@drawable/ic_mail"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:inputType="textPersonName"
+            android:hint="Tài Khoản Email"
+            android:ems="10"
+            android:id="@+id/emailFogetPass"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:background="#5eb3d7"
+        android:textColor="#f8f1f6ff"
+        android:layout_height="wrap_content"
+        android:text="LẤY MẬT KHẨU"
+        android:id="@+id/btnLayMK"
+        android:layout_gravity="center_horizontal"
+        android:textSize="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:padding="10px"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/quenmatkhau"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
